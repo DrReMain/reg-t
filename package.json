@@ -1,0 +1,49 @@
+{
+  "name": "@cyberdancer/reg-t",
+  "version": "0.0.1",
+  "description": "A simple CLI to generate template files.",
+  "license": "MIT",
+  "homepage": "",
+  "repository": "https://github.com/DrReMain/reg-t",
+  "bugs": "https://github.com/DrReMain/reg-t",
+  "keywords": [
+    "cli",
+    "dev-tools"
+  ],
+  "author": "DrReMain <51071534@qq.com> (https://github.com/DrReMain)",
+  "main": "./bin/reg-t",
+  "bin": {
+    "reg-t": "./bin/reg-t"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10.x"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "deep-keys": "^0.5.0",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "replace": "^1.2.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "2.2.1",
+    "rimraf": "^3.0.2"
+  }
+}
