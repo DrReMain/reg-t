@@ -1,5 +1,5 @@
 {
-  "name": "@cyberdancer/reg-t",
+  "name": "reg-t",
   "version": "0.0.1",
   "description": "A simple CLI to generate template files.",
   "license": "MIT",
@@ -22,9 +22,6 @@
     "CHANGELOG.md",
     "LICENSE"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "engines": {
     "node": ">=10.x"
   },
